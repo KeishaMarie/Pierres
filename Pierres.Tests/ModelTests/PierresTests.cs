@@ -15,5 +15,12 @@ namespace Bakery.Test
       Bread newBread = new Bread();
       Assert.AreEqual(5, newBread.BreadPrice(1));
     }
+
+    [TestMethod]
+    public void BreadPrice_TwoLoavesPrice_True()
+    {
+      Bread newBread = new Bread();
+      Assert.AreEqual(10, newBread.BreadPrice(2));
+    }
   }
 }
