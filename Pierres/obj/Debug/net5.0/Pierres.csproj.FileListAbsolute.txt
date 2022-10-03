@@ -1,0 +1,12 @@
+/Users/peckii/Desktop/Pierres.Solution/Pierres/obj/Debug/net5.0/Pierres.csproj.AssemblyReference.cache
+/Users/peckii/Desktop/Pierres.Solution/Pierres/obj/Debug/net5.0/Pierres.GeneratedMSBuildEditorConfig.editorconfig
+/Users/peckii/Desktop/Pierres.Solution/Pierres/obj/Debug/net5.0/Pierres.AssemblyInfoInputs.cache
+/Users/peckii/Desktop/Pierres.Solution/Pierres/obj/Debug/net5.0/Pierres.AssemblyInfo.cs
+/Users/peckii/Desktop/Pierres.Solution/Pierres/obj/Debug/net5.0/Pierres.csproj.CoreCompileInputs.cache
+/Users/peckii/Desktop/Pierres.Solution/Pierres/bin/Debug/net5.0/Pierres.deps.json
+/Users/peckii/Desktop/Pierres.Solution/Pierres/bin/Debug/net5.0/Pierres.dll
+/Users/peckii/Desktop/Pierres.Solution/Pierres/bin/Debug/net5.0/ref/Pierres.dll
+/Users/peckii/Desktop/Pierres.Solution/Pierres/bin/Debug/net5.0/Pierres.pdb
+/Users/peckii/Desktop/Pierres.Solution/Pierres/obj/Debug/net5.0/Pierres.dll
+/Users/peckii/Desktop/Pierres.Solution/Pierres/obj/Debug/net5.0/ref/Pierres.dll
+/Users/peckii/Desktop/Pierres.Solution/Pierres/obj/Debug/net5.0/Pierres.pdb
