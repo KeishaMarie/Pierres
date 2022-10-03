@@ -10,3 +10,6 @@
 /Users/peckii/Desktop/Pierres.Solution/Pierres/obj/Debug/net5.0/Pierres.dll
 /Users/peckii/Desktop/Pierres.Solution/Pierres/obj/Debug/net5.0/ref/Pierres.dll
 /Users/peckii/Desktop/Pierres.Solution/Pierres/obj/Debug/net5.0/Pierres.pdb
+/Users/peckii/Desktop/Pierres.Solution/Pierres/bin/Debug/net5.0/Pierres.runtimeconfig.json
+/Users/peckii/Desktop/Pierres.Solution/Pierres/bin/Debug/net5.0/Pierres.runtimeconfig.dev.json
+/Users/peckii/Desktop/Pierres.Solution/Pierres/obj/Debug/net5.0/Pierres.genruntimeconfig.cache
