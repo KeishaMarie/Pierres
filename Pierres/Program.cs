@@ -1,5 +1,5 @@
 using System;
-
+using PierresBakery.Models;
 
 class Program
 {
@@ -14,16 +14,15 @@ class Program
       Console.WriteLine("One loaf of bread is $5, two loaves is $10. Or buy multiple and take advantage of our Buy two get one free deal!");
       Console.WriteLine("Three loaves for $10 or six loaves for $20!");
       Console.WriteLine("Enter the number of loaves you would like.");
-      int breadAmount = Int32.Parse(Console.ReadLine());
+      int totalLoaves = Int32.Parse(Console.ReadLine());
+      Console.WriteLine("$" + Bread.BreadPrice(totalLoaves));
     }
-    else (response == "pastries")
+    else if (response == "pastries")
     {
-      Console.WriteLine("One pastry is $2, two pastries is $4 and every third pastry is $1!")
+      Console.WriteLine("One pastry is $2, two pastries is $4 and every third pastry is $1!");
+      Console.WriteLine("Enter the number of pastries you would like.");
+      int totalPastries = Int32.Parse(Console.ReadLine());
+      Console.WriteLine("$" + Pastry.PastryPrice(totalPastries));
     }
-
-    
-
-
-  
   }
 }

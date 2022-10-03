@@ -5,8 +5,17 @@ namespace PierresBakery.Models
 {
   public class Bread
   {
-    public int BreadPrice(int numLoaves)
+    public int NumLoaves { get; set; }
+
+    public Bread(int numloaves)
     {
+      NumLoaves = numloaves;
+    }
+
+    
+    public static int BreadPrice(int numLoaves)
+    {
+
       if (numLoaves == 1)
       {
         return 5;

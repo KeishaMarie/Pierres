@@ -5,7 +5,13 @@ namespace PierresBakery.Models
 {
   public class Pastry
   {
-    public int PastryPrice(int numPastries)
+    public int NumPastries { get; set;}
+
+    public Pastry(int numPastries)
+    {
+      NumPastries = numPastries;
+    }
+    public static int PastryPrice(int numPastries)
     {
       if (numPastries == 1)
       {
