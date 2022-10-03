@@ -14,5 +14,12 @@ namespace Bakery.Test
       Pastry newPastry = new Pastry();
       Assert.AreEqual(2, newPastry.PastryPrice(1));
     }
+
+    [TestMethod]
+    public void PastryPrice_twoPastryPrice_int()
+    {
+      Pastry newPastry = new Pastry();
+      Assert.AreEqual(4, newPastry.PastryPrice(2));
+    }
   }
 }
