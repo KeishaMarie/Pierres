@@ -16,10 +16,24 @@ namespace Bakery.Test
     }
 
     [TestMethod]
-    public void PastryPrice_twoPastryPrice_int()
+    public void PastryPrice_TwoPastryPrice_int()
     {
       Pastry newPastry = new Pastry();
       Assert.AreEqual(4, newPastry.PastryPrice(2));
+    }
+
+    [TestMethod]
+    public void PastryPrice_ThreePastryPrice_Int()
+    {
+      Pastry newPastry = new Pastry();
+      Assert.AreEqual(5, newPastry.PastryPrice(3));
+    }
+
+    [TestMethod]
+    public void PastryPrice_FourPastryPrice_Int()
+    {
+      Pastry newPastry = new Pastry();
+      Assert.AreEqual(7, newPastry.PastryPrice(4));
     }
   }
 }
