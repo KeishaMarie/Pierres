@@ -6,23 +6,32 @@ class Program
   static void Main()
   {
     Console.WriteLine("Welcome to Pierre's Bakery!");
-    Console.WriteLine("Are you craving Bread or Pastries? Please choose one.");
-    string response = Console.ReadLine();
+    Console.WriteLine("We offer bread and pastries");
+    Console.WriteLine("One loaf of bread is $5, two loaves is $10. Or buy multiple and take advantage of our Buy Two Get One Free deal!");
+    Console.WriteLine("One pastry is $2, two pastries are $4 and every third pastry is $1!");
+    Console.WriteLine("<------------------------------------------->");
+   
+    Console.WriteLine("Enter the number of loaves you would like.");
+    int totalLoaves = Int32.Parse(Console.ReadLine());
+    Bread breadOrder = new Bread(totalLoaves);
 
-    if (response == "bread")
-    {
-      Console.WriteLine("One loaf of bread is $5, two loaves is $10. Or buy multiple and take advantage of our Buy two get one free deal!");
-      Console.WriteLine("Three loaves for $10 or six loaves for $20!");
-      Console.WriteLine("Enter the number of loaves you would like.");
-      int totalLoaves = Int32.Parse(Console.ReadLine());
-      Console.WriteLine("$" + Bread.BreadPrice(totalLoaves));
-    }
-    else if (response == "pastries")
-    {
-      Console.WriteLine("One pastry is $2, two pastries is $4 and every third pastry is $1!");
-      Console.WriteLine("Enter the number of pastries you would like.");
-      int totalPastries = Int32.Parse(Console.ReadLine());
-      Console.WriteLine("$" + Pastry.PastryPrice(totalPastries));
-    }
+    Console.WriteLine("Enter the number of pastries you would like.");
+    int totalPastries = Int32.Parse(Console.ReadLine());
+    Pastry pastryOrder = new Pastry(totalPastries);
+
+    int orderTotal = (breadOrder.BreadPrice(totalLoaves) + pastryOrder.PastryPrice(totalPastries));
+
+    Console.WriteLine("Your order is $" + orderTotal);
+
+    Console.WriteLine("You have " + totalLoaves + " loaves at $" + breadOrder.BreadPrice(totalLoaves) + " and " + totalPastries + " pastries at $" + pastryOrder.PastryPrice(totalPastries));
+    Console.WriteLine("Your order total is $" + orderTotal);
+    
+    // Console.WriteLine("Would you like to add more to your order?");
+    // string response2 = Console.ReadLine();
+    // switch (response2)
+    // {
+
+    // }
+
   }
 }

@@ -13,7 +13,7 @@ namespace PierresBakery.Models
     }
 
     
-    public static int BreadPrice(int numLoaves)
+    public int BreadPrice(int numLoaves)
     {
 
       if (numLoaves == 1)

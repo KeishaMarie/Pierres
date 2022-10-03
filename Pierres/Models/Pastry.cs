@@ -11,7 +11,7 @@ namespace PierresBakery.Models
     {
       NumPastries = numPastries;
     }
-    public static int PastryPrice(int numPastries)
+    public int PastryPrice(int numPastries)
     {
       if (numPastries == 1)
       {
